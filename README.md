@@ -60,3 +60,8 @@ Erdős [Er80, p. 95] also asked to estimate the number of irreducible covering s
 over all subsets of {2..24}: the count is 0 for x < 12, 1 for 12 ≤ x < 24, and 5 for x = 24 (no irreducible set of size ≥ 9
 has all moduli ≤ 24). From the enumeration by size (k ≤ 8) the counts are at least 13, 24, 59, 85 for x = 36, 48, 72, 96.
 See `data/by_max_modulus.md` and `src/count_irreducible_by_max_modulus.py`.
+
+## Status note (2026-09-04): k = 9 not enumerated
+An attempt to extend the enumeration to k = 9 with the same program (`irreducible_covering_sets_v2.py 9 18000 6`, six worker processes) found
+9 irreducible covering sets in about six hours of wall time before its time limit, far from completion; the partial list is not included
+and no value of I(9) is claimed. A different algorithm (e.g. modulus-set pruning by the 2-adic and 3-adic structure) would be needed.
