@@ -45,4 +45,4 @@ coverability is monotone). Runtime 29 min. This also confirms that no irreducibl
 | 72 | 59 |
 | 96 | 85 |
 
-Every irreducible covering set of size ≤ 8 has maximum modulus 12, 24, 36 or 48 (a multiple of 12).
+Every irreducible covering set of size ≤ 8 has maximum modulus 12, 24, 36, 48, 72 or 96 — always a multiple of 12.

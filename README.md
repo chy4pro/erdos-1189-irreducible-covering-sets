@@ -58,5 +58,5 @@ this repository.
 ## Addendum (2026-09-04): counting by maximum modulus (Erdős Problem #1188 discussion)
 Erdős [Er80, p. 95] also asked to estimate the number of irreducible covering sets with all moduli in [1, x]. Exhaustively
 over all subsets of {2..24}: the count is 0 for x < 12, 1 for 12 ≤ x < 24, and 5 for x = 24 (no irreducible set of size ≥ 9
-has all moduli ≤ 24). From the enumeration by size (k ≤ 8) the counts are at least 13 for x = 36 and 24 for x = 48.
+has all moduli ≤ 24). From the enumeration by size (k ≤ 8) the counts are at least 13, 24, 59, 85 for x = 36, 48, 72, 96.
 See `data/by_max_modulus.md` and `src/count_irreducible_by_max_modulus.py`.
